@@ -342,7 +342,7 @@
       </header>
       <div class="app__container">
         <div class="grid">
-          <div class="grid__row">
+          <div class="grid__row app__content">
             <div class="grid__column-2">
               <nav class="category">
                 <h3 class="category__heading">
@@ -362,7 +362,43 @@
                 </ul>
               </nav>
             </div>
-            <div class="grid__column-10"></div>
+            <div class="grid__column-10">
+              <div class="home-filter">
+                <span class="home-filter__label">Soft by</span>
+                <button class="home-filter__btn btn">Popularity</button>
+                <button class="home-filter__btn btn btn-primary">Newest</button>
+                <button class="home-filter__btn btn">Selling</button>
+                <div class="select-input">
+                  <span class="select-input__label">Price</span>
+                  <i class="select-input__icon fa fa-angle-down"></i>
+
+                  <!-- List option -->
+                  <ul class="select-input__list">
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Price up</a>
+                    </li>
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Price down</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="home-filter__page">
+                  <span class="home-filter__page-num">
+                    <span class="home-filter__page-current">1</span>/14
+                  </span>
+                  <div class="home-filter__page-control">
+                    <a href="" class="home-filter__page-btn">
+                      <i class="home-filter__page-icon fa fa-angle-left"></i>
+                    </a>
+                  </div>
+                  <div class="home-filter__page-control">
+                    <a href="" class="home-filter__page-btn">
+                      <i class="home-filter__page-icon fa fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
